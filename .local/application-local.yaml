@@ -160,11 +160,11 @@ clusters:
     auth:
       #inCluster: true
       kubeconfig:
-        #apiServer: https://host.docker.internal:56660
+        apiServer: https://host.docker.internal:57280
         path: /tmp/.kube/config
         # When not provided, use current context
         # context: kind-kind-okdp-sandbox
-      #  insecureSkipTlsVerify: true
+        insecureSkipTlsVerify: true
       # certificate:
       #   apiServer: https://k8s-api-server-url:6443
       #   clientKey: /path/to/client-key.pem
